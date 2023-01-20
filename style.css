@@ -1,0 +1,136 @@
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    width: 100%;
+  }
+
+  #catboy{
+    transform: translateX(400px);
+  }
+
+  #owlette{
+    transform: translateX(200px);
+  }
+  
+  .draggable {
+    cursor: move;
+    z-index: 10;
+    color: #fff;
+    width:200px;
+    position: absolute;
+  }
+
+  .mask img{
+    width: 170px;
+    border: none;
+
+  }
+
+  .mask{
+    top: 600px; left: 600px;
+  }
+
+  .background img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    top: -190px;
+  }
+
+  .container{
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid black;
+  }
+
+  .hero{
+    display: block;
+    position: absolute;
+  }
+
+  .hero#hero-gekko{
+    left: 600px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  .hero#person-gekko{
+    left: 646px;
+    top: 60px;
+    z-index: -1;
+  }
+
+
+  .hero#hero-catboy{
+    left: 800px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  .hero#person-catboy{
+    left: 896px;
+    top: 60px;
+    z-index: -1;
+  }
+
+  .hero#hero-owlette{
+    left: 1000px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+
+  .hero#person-owlette{
+    left: 1076px;
+    top: 60px;
+    z-index: -1;
+  }
+  .reveal-gekko{
+    animation-name: reveal-gekko;
+    animation-duration: 2s;
+    animation-fill-mode:forwards
+  }
+
+  @keyframes reveal-gekko {
+    0% {
+      box-shadow: inset 0px 600px 20px -20px #dae797;
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    100% {
+      box-shadow: inset 0px 35px 20px -20px #dae797;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+
+  .reveal-owlette{
+    animation-name: reveal-owlette;
+    animation-duration: 2s;
+    animation-fill-mode:forwards
+  }
+
+  @keyframes reveal-owlette {
+    0% {
+      box-shadow: inset 0px 600px 20px -20px #fbd7d1;
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    100% {
+      box-shadow: inset 0px 35px 20px -20px #fbd7d1;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+
+  .reveal-catboy{
+    animation-name: reveal-catboy;
+    animation-duration: 2s;
+    animation-fill-mode:forwards
+  }
+
+  @keyframes reveal-catboy {
+    0% {
+      box-shadow: inset 0px 600px 20px -20px #c2e4ed;
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    100% {
+      box-shadow: inset 0px 35px 20px -20px #c2e4ed;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
