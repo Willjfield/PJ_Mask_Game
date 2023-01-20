@@ -36,10 +36,10 @@
   .background img{
     margin: 0 auto;
     display: block;
-    width: 100%;
+    width: 1920px;
     position: absolute;
     z-index: -2;
-    top: -190px;
+    top: -227px;
     left: 0px;
   }
 
