@@ -33,6 +33,11 @@
     top: 600px; left: 600px;
   }
 
+  .pj-robot{
+    position: absolute;
+    top: 300px;
+    left: 360px;
+  }
   .background img{
     margin: 0 auto;
     display: block;
