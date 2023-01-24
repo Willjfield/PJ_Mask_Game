@@ -3,7 +3,7 @@ dragElement(document.getElementById("gekko"));
 dragElement(document.getElementById("catboy"));
 dragElement(document.getElementById("owlette"));
 dragElement(document.getElementById("robot"));
-
+dragElement(document.getElementById("newton"));
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   
