@@ -1,7 +1,13 @@
 // Make the DIV element draggable:
 dragElement(document.getElementById("gekko"));
+dragElement(document.getElementById("hero-gekko"));
+
 dragElement(document.getElementById("catboy"));
+dragElement(document.getElementById("hero-catboy"));
+
 dragElement(document.getElementById("owlette"));
+dragElement(document.getElementById("hero-owlette"));
+
 dragElement(document.getElementById("robot"));
 dragElement(document.getElementById("newton"));
 function dragElement(elmnt) {

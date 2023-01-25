@@ -41,8 +41,9 @@
 
   .newton-star{
     position: absolute;
-    top: 300px;
-    right: 360px;
+    top: 118px;
+    left: 1200px;
+    width: 179px;
   }
   .background img{
     margin: 0 auto;
